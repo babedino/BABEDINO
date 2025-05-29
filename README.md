@@ -11,8 +11,8 @@ This repository includes an official statement regarding the BABEDINO token's re
 
 ✅ Ownership renounced  
 ✅ Whitelist function permanently disabled  
-✅ Verified on BscScan  
-✅ Listed and analyzed on GoPlus, TokenSniffer, Honeypot.is, and DeFiScanner
+✅ Verified on GoPlus, TokenSniffer, Honeypot.is, and DeFiScanner
+
 
 
 Here are some ideas to get you started:
