@@ -1,17 +1,19 @@
-# #BABEDINO - Lovely Baby Dino
+# BABEDINO - Lovely Baby Dino
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/babedino/logos/main/dino_baby300.png" alt="BABEDINO Logo" width="220"/>
 </p>
 
+---
 
-# 🦖 BABEDINO Token Security Documentation
+## 🦖 BABEDINO Token Security Documentation
 
-Welcome to the official GitHub repository for the **BABEDINO** token on Binance Smart Chain. This repository provides proof of transparency, safety, and legitimacy of the token, along with key project documentation.
+Welcome to the official GitHub repository for the **BABEDINO** token on Binance Smart Chain.  
+This repository provides proof of transparency, safety, and legitimacy of the token, along with key project documentation.
 
 ---
 
-## 📄 Core Documents (in /docs)
+## 📄 Core Documents (in `/docs/`)
 
 | Document                                     | Link                                                                 |
 |---------------------------------------------|----------------------------------------------------------------------|
@@ -29,20 +31,20 @@ Welcome to the official GitHub repository for the **BABEDINO** token on Binance 
 
 ## 🔧 Verified Helper Contract
 
-- 📘 **Helper Contract Address:** `0x49aFa8918C14ee081d0D010C8D171AfAe4b5F382`  
+- **Helper Contract Address:** `0x49aFa8918C14ee081d0D010C8D171AfAe4b5F382`  
 - 🔗 [View on BscScan](https://bscscan.com/address/0x49aFa8918C14ee081d0D010C8D171AfAe4b5F382)
 
-This verified smart contract confirms:
-- ✅ Contract ownership is **renounced**
+This verified contract confirms:
+- ✅ Ownership is **renounced**
 - ✅ Whitelist logic is **disabled**
 - ✅ Anti-sniping toggle is **off**
-- ✅ Total supply is **fixed**
+- ✅ Total supply is **fixed and public**
 
 ---
 
 ## 🧪 Main Token Contract
 
-- 🪙 **Token Address:** `0x1CE070f548AC67825e2AAd4368Af9A78ce0C6080`  
+- **Token Address:** `0x1CE070f548AC67825e2AAd4368Af9A78ce0C6080`  
 - 🔗 [View on BscScan](https://bscscan.com/token/0x1CE070f548AC67825e2AAd4368Af9A78ce0C6080)
 
 ---
@@ -58,13 +60,49 @@ This verified smart contract confirms:
 
 ---
 
-## 📂 Repo Structure
+## ⚠️ Whitelist Flag Clarification
 
+Some scanner platforms may still show a "Whitelist" warning.
+
+➡️ **This is incorrect.**  
+The whitelist function is permanently disabled via renounced ownership.
+
+**How to verify this yourself:**
+1. Go to the token contract on BscScan
+2. Open the **Read Contract** tab
+3. Find the `isWhitelisted(address)` method
+4. Input: `0x0000000000000000000000000000000000000000`
+5. Result should return: `false`
+
+More details in: [Post-Mortem Note PDF](docs/Post-Mortem%20Note.pdf)
 
 ---
 
-## 📣 For Exchanges, Scanners, and Token Reviewers
+## 📂 Repo Structure
 
-This repository is the official security resource for BABEDINO.  
-You may use it to verify ownership, safety status, contract settings, and community transparency.
+This repository contains:
+- 📁 `/docs`: All PDFs and proof files  
+- 📁 `/logos`: BABEDINO branding/logo files  
+- ✅ `README.md`: Overview for reviewers, scanners, and CEXs
 
+---
+
+## 📣 For Exchanges, Scanners, and Reviewers
+
+This repository serves as BABEDINO’s **official technical trust layer**.  
+It includes verifiable documents for contract security, renounced ownership, and locked LP transparency.
+
+You are encouraged to:
+- Use this repo as proof of safety
+- Include this link on scanner platforms
+- Add it to CoinGecko, CMC, or exchange listings
+
+---
+
+## 🙏 Thanks for Supporting BABEDINO!
+
+For updates and more:
+- 🌐 Website: [https://babedino.com](https://babedino.com)
+- Telegram: [https://t.me/bybdino](https://t.me/bybdino)
+- Twitter: [https://x.com/LovelyBabyDino](https://x.com/LovelyBabyDino)
+- YouTube: [https://www.youtube.com/@bybdino](https://www.youtube.com/@bybdinoo)
