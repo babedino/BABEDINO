@@ -1,28 +1,63 @@
-## Hi there 👋
+# 🦖 BABEDINO Token Security Documentation
 
-<!--
-**babedino/babedino** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+Welcome to the official GitHub repository for the **BABEDINO** token on Binance Smart Chain. This repository provides proof of transparency, safety, and legitimacy of the token, along with key project documentation.
 
-## 📄 Token Security Statement
+---
 
-This repository includes an official statement regarding the BABEDINO token's renounced contract ownership and inactive whitelist function.
+## 📄 Core Documents (in /docs)
 
-🔗 [Download PDF Security Statement](docs/BABEDINO_Token_Security_Statement.pdf)
+| Document                                     | Link                                                                 |
+|---------------------------------------------|----------------------------------------------------------------------|
+| ✅ Proof of Safety PDF                      | [View](docs/BABEDINO_ProofOfSafety.pdf)                              |
+| ✅ Security Statement                       | [View](docs/BABEDINO_Token_Security_Statement.pdf)                   |
+| ✅ Lock & Unlock Schedule                   | [View](docs/BABEDINO_Lock_Unlock_Schedule.pdf)                       |
+| ✅ Token Scanner Issues Report              | [View](docs/BABEDINO_Token_Scanner_Issues_Report.pdf)                |
+| ✅ Post-Mortem Note on Whitelist Flag       | [View](docs/Post-Mortem%20Note.pdf)                                  |
+| ✅ Whitepaper                               | [View](docs/Whitepaper_Lovely_Baby_Dino_BABEDINO.pdf)                |
+| 📘 Introduction                             | [View](docs/Introduction.pdf)                                        |
+| 📘 About                                     | [View](docs/About.pdf)                                               |
+| 📘 Token Distribution & Roadmap             | [View](docs/Token_Distribution_and_Roadmap.pdf)                      |
 
-✅ Ownership renounced  
-✅ Whitelist function permanently disabled  
-✅ Verified on GoPlus, TokenSniffer, Honeypot.is, and DeFiScanner
+---
+
+## 🔧 Verified Helper Contract
+
+- 📘 **Helper Contract Address:** `0x49aFa8918C14ee081d0D010C8D171AfAe4b5F382`  
+- 🔗 [View on BscScan](https://bscscan.com/address/0x49aFa8918C14ee081d0D010C8D171AfAe4b5F382)
+
+This verified smart contract confirms:
+- ✅ Contract ownership is **renounced**
+- ✅ Whitelist logic is **disabled**
+- ✅ Anti-sniping toggle is **off**
+- ✅ Total supply is **fixed**
+
+---
+
+## 🧪 Main Token Contract
+
+- 🪙 **Token Address:** `0x1CE070f548AC67825e2AAd4368Af9A78ce0C6080`  
+- 🔗 [View on BscScan](https://bscscan.com/token/0x1CE070f548AC67825e2AAd4368Af9A78ce0C6080)
+
+---
+
+## 🛡️ Scanner Highlights
+
+| Platform        | Status                          |
+|----------------|----------------------------------|
+| ✅ TokenSniffer | ✅ No mint, no tax, renounced    |
+| ✅ GoPlus       | ✅ No owner privileges, verified |
+| ✅ Honeypot.is  | ✅ Not a honeypot                |
+| ✅ De.Fi Scanner| ✅ Safe profile                  |
+
+---
+
+## 📂 Repo Structure
 
 
+---
 
-Here are some ideas to get you started:
+## 📣 For Exchanges, Scanners, and Token Reviewers
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+This repository is the official security resource for BABEDINO.  
+You may use it to verify ownership, safety status, contract settings, and community transparency.
+
