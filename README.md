@@ -1,3 +1,10 @@
+# #BABEDINO - Lovely Baby Dino
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/babedino/logos/main/dino_baby300.png" alt="BABEDINO Logo" width="220"/>
+</p>
+
+
 # 🦖 BABEDINO Token Security Documentation
 
 Welcome to the official GitHub repository for the **BABEDINO** token on Binance Smart Chain. This repository provides proof of transparency, safety, and legitimacy of the token, along with key project documentation.
