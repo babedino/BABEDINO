@@ -17,6 +17,7 @@ This repository provides proof of transparency, safety, and legitimacy of the to
 
 | Document                                     | Link                                                                 |
 |---------------------------------------------|----------------------------------------------------------------------|
+| ✅ CertiK Security Review                   | [View](docs/BABEDINO_CertiK_Security_Review.pdf)                     |
 | ✅ Proof of Safety PDF                      | [View](docs/BABEDINO_ProofOfSafety.pdf)                              |
 | ✅ Security Statement                       | [View](docs/BABEDINO_Token_Security_Statement.pdf)                   |
 | ✅ Lock & Unlock Schedule                   | [View](docs/BABEDINO_Lock_Unlock_Schedule.pdf)                       |
@@ -105,4 +106,4 @@ For updates and more:
 - 🌐 Website: [https://babedino.com](https://babedino.com)
 - Telegram: [https://t.me/bybdino](https://t.me/bybdino)
 - Twitter: [https://x.com/LovelyBabyDino](https://x.com/LovelyBabyDino)
-- YouTube: [https://www.youtube.com/@bybdino](https://www.youtube.com/@bybdinoo)
+- YouTube: [https://www.youtube.com/@bybdino](https://www.youtube.com/@bybdino)
