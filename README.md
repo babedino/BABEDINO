@@ -1,3 +1,4 @@
+
 # BABEDINO - Lovely Baby Dino
 
 <p align="center">
@@ -22,6 +23,7 @@ This repository provides proof of transparency, safety, and legitimacy of the to
 | ✅ Security Statement                       | [View](docs/BABEDINO_Token_Security_Statement.pdf)                   |
 | ✅ Lock & Unlock Schedule                   | [View](docs/BABEDINO_Lock_Unlock_Schedule.pdf)                       |
 | ✅ Token Scanner Issues Report              | [View](docs/BABEDINO_Token_Scanner_Issues_Report.pdf)                |
+| ✅ Whitelist Function Clarification         | [View](docs/BABEDINO_Whitelist_Disabled.pdf)                         |
 | ✅ Post-Mortem Note on Whitelist Flag       | [View](docs/Post-Mortem%20Note.pdf)                                  |
 | ✅ Whitepaper                               | [View](docs/Whitepaper_Lovely_Baby_Dino_BABEDINO.pdf)                |
 | 📘 Introduction                             | [View](docs/Introduction.pdf)                                        |
@@ -68,14 +70,20 @@ Some scanner platforms may still show a "Whitelist" warning.
 ➡️ **This is incorrect.**  
 The whitelist function is permanently disabled via renounced ownership.
 
-**How to verify this yourself:**
-1. Go to the token contract on BscScan
-2. Open the **Read Contract** tab
-3. Find the `isWhitelisted(address)` method
-4. Input: `0x0000000000000000000000000000000000000000`
-5. Result should return: `false`
+**Technical facts:**
+- `whitelistEndTime = 0`, permanently disabling the whitelist logic.
+- No wallet ever received tax exemption, priority access, or transaction bypass.
+- Ownership is renounced and whitelist logic is permanently unreachable.
 
-More details in: [Post-Mortem Note PDF](docs/Post-Mortem%20Note.pdf)
+See full justification in this official safety document:  
+📄 [BABEDINO_Whitelist_Disabled.pdf](docs/BABEDINO_Whitelist_Disabled.pdf)
+
+**Manual steps to verify:**
+1. Open the token contract on BscScan
+2. Navigate to the "Read Contract" tab
+3. Locate `isWhitelisted(address)`
+4. Enter any address (e.g., `0x0000000000000000000000000000000000000000`)
+5. Result: `false`
 
 ---
 
