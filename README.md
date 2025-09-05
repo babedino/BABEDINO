@@ -115,3 +115,5 @@ For updates and more:
 - Telegram: [https://t.me/bybdino](https://t.me/bybdino)
 - Twitter: [https://x.com/LovelyBabyDino](https://x.com/LovelyBabyDino)
 - YouTube: [https://www.youtube.com/@bybdino](https://www.youtube.com/@bybdino)
+- Medium: [https://medium.com/@BABEDINO](https://medium.com/@BABEDINO)
+- Facebook: [https://www.facebook.com/lovelybabydino](https://www.facebook.com/lovelybabydino)
